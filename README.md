@@ -57,5 +57,4 @@ npm run dev
 📬 Contribuições e Feedback
 Sinta-se à vontade para abrir issues ou enviar sugestões. Todo feedback é bem-vindo!
 
-📄 Licença
-Este projeto está sob a licença MIT.
+
