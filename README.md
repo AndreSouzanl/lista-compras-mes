@@ -1,9 +1,9 @@
-🛒 Lista de Compras Digital
+# 🛒 Lista de Compras Digital
 Este projeto foi criado para facilitar a organização das compras mensais de casa. Inspirado em uma necessidade comum — pessoas indo ao mercado com papel e caneta —, a ideia é trazer praticidade e controle através de uma solução digital simples e eficiente.
 
 
 
-📋 Funcionalidades
+# 📋 Funcionalidades
 Adicionar, editar e excluir produtos da lista
 
 Marcar produtos como comprados
@@ -54,7 +54,7 @@ npm install
 
 # Inicie o projeto
 npm run dev
-📬 Contribuições e Feedback
+# 📬 Contribuições e Feedback
 Sinta-se à vontade para abrir issues ou enviar sugestões. Todo feedback é bem-vindo!
 
 
