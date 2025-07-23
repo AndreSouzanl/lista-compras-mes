@@ -63,7 +63,7 @@ export default function Home() {
     }
     if (produtos.some((p) => p.nome.toLowerCase() === nome.toLowerCase())) {
       setMensagem({
-        texto: "Este produto já está cadastrado.",
+        texto: "Produto duplicado!",
         tipo: "aviso",
       });
       setNome("")
