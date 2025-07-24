@@ -188,6 +188,7 @@ export default function Home() {
                   key={produto.id}
                   id={produto.id}
                   nome={produto.nome}
+                  editando={editando}
                   checado={produto.checado}
                   quantidade={produto.quantidade}
                   unidade={produto.unidade}

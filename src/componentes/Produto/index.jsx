@@ -23,10 +23,14 @@ export default function Produto(props) {
               onClick={() => props.onClickEdit(props.id)}
             />
             <IconTrash
-              className={estilos.iconeResponsivo}
+              className={`${estilos.iconeResponsivo} ${
+                props.editando ? estilos.desabilitado : ""
+              }`}
               stroke={1}
               color="red"
-              onClick={() => props.onClickDelete(props.id)}
+              onClick={() => {
+                if (!props.editando) props.onClickDelete(props.id);
+              }}
             />
             <IconCheck
               className={estilos.iconeResponsivo}
@@ -40,3 +44,5 @@ export default function Produto(props) {
     </>
   );
 }
+
+

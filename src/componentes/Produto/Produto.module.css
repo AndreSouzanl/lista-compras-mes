@@ -26,6 +26,12 @@
   margin:2px
 }
 
+.desabilitado {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 @media (max-width: 768px) {
   .iconeResponsivo {
     width: 25px;
