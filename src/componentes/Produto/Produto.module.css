@@ -42,7 +42,7 @@
 @media (max-width: 400px) {
   .acoes {
     display: flex;
-    gap: 2px;
+    gap: 9px;
     align-items: center;
     justify-content: center;
   }

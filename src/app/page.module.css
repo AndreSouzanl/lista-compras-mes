@@ -124,11 +124,11 @@
   }
 
   .input {
-    font-size: 16px;
+    font-size: 1.2rem;
   }
 
   .btn {
-    font-size: 16px;
+    font-size: 2rem;
     padding: 0.75rem;
   }
 
@@ -139,11 +139,12 @@
     color: white;
     max-width: 768px;
     margin: 0 auto;
+    font-size: 1.6rem;
   }
 
   .tabela th,
   .tabela td {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 6px;
   }
 
@@ -159,16 +160,15 @@
 
   .tabela th,
   .tabela td {
-    font-size: 15px;
+    font-size: 1rem;
      padding: 6px;
   }
    .input {
-    font-size: 14px;
+    font-size: 1.0rem;
     padding: 6px;
   }
-
   .btn {
-    font-size: 14px;
+    font-size: 1.3rem;
     padding: 8px 12px;
   }
 
