@@ -17,7 +17,7 @@ export default function Produto(props) {
         <td>
           <div className={estilos.acoes}>
             <IconEdit
-              className={estilos.iconeResponsivo}
+              className={`${estilos.iconeResponsivo}`}
               stroke={1}
               color="green"
               onClick={() => props.onClickEdit(props.id)}
@@ -25,7 +25,7 @@ export default function Produto(props) {
             <IconTrash
               className={`${estilos.iconeResponsivo} ${
                 props.editando ? estilos.desabilitado : ""
-              }`}
+              } ${estilos}`}
               stroke={1}
               color="red"
               onClick={() => {

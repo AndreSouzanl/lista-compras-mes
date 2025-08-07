@@ -16,6 +16,8 @@ export default function Home() {
   const [paginaAtual, setPaginaAtual] = useState(1);
   const [editando, setEditando] = useState(false);
   const [mensagem, setMensagem] = useState({ texto: "", tipo: "" });
+  const [numeroWhatsApp, setNumeroWhatsApp] = useState("");
+  const [mostrarCampoNumero, setMostrarCampoNumero] = useState(false);
 
   // Paginação
   const itensPorPagina = 8;
@@ -66,9 +68,9 @@ export default function Home() {
         texto: "Produto duplicado!",
         tipo: "aviso",
       });
-      setNome("")
-      setQuantidade("")
-      setUnidade("")
+      setNome("");
+      setQuantidade("");
+      setUnidade("");
       return;
     }
     const novoProduto = { id: uuid(), nome, quantidade, unidade, edit: false };
@@ -136,7 +138,7 @@ export default function Home() {
     <div className={estilos.containerPrincipal}>
       <Header titulo="Lista de Compras Mensal" />
 
-       <Mensagem mensagem={mensagem} />
+      <Mensagem mensagem={mensagem} />
 
       <main>
         <div className={estilos.container_input}>
@@ -170,7 +172,6 @@ export default function Home() {
           >
             {editando ? "Salvar Produto" : "Adicionar Produto"}
           </button>
-         
         </div>
         <div className={estilos.container}>
           <table className={estilos.tabela}>

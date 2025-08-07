@@ -78,7 +78,6 @@
   color: white;
   max-width: 1000px;
   margin: 0 auto;
- 
 }
 
 .tabela th,
@@ -154,15 +153,15 @@
 }
 @media (max-width: 400px) {
   .tabela {
-    width: 300px; /* largura mínima da tabela para forçar scroll */
+    width: 250px; /* largura mínima da tabela para forçar scroll */
   }
 
   .tabela th,
   .tabela td {
-    font-size: 15px;
-     padding: 6px;
+    font-size: clamp(12px, 2vw, 16px);
+    padding: 6px;
   }
-   .input {
+  .input {
     font-size: 14px;
     padding: 6px;
   }
@@ -174,12 +173,11 @@
 
   .container_input {
     flex-direction: column;
-    
   }
 
   .paginacao {
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
   }
 }
